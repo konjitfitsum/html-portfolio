@@ -14,6 +14,26 @@ body {
   margin: 0;
   transition: background 0.3s, color 0.3s;
 }
+.form-container,
+.chatbot-container {
+  width: 45%;
+}
+.chat-window {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.message {
+  margin: 5px 0;
+}
+.user {
+  color: blue;
+}
+.bot {
+  color: green;
+}
 
 .dark-mode {
   background: var(--bg-dark);
@@ -472,7 +492,7 @@ body {
 /*blog section*/
 .blog-section {
   padding: 80px 10%;
-  background: #fff;
+  background: #3d3f3e;
   text-align: center;
 }
 
@@ -576,4 +596,16 @@ body {
 
 .contact-form button:hover {
   background-color: #43a047;
+}
+.chatbot-container {
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  background-color: #3d3f3e;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
